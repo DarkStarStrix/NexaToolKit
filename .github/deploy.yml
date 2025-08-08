@@ -1,0 +1,8 @@
+# File: docker-compose.yml
+version: '3'
+services:
+  nexa-toolkit:
+    build: .
+    volumes:
+      - .:/app
+    command: ["./nexa-toolkit", "model.pt"]

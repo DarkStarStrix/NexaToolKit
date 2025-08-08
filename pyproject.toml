@@ -1,0 +1,19 @@
+[project]
+name = "nexa-toolkit"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.116.1",
+    "httpx==0.28.1",
+    "numpy>=1.19.0",
+    "psutil>=5.8.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "safetensors~=0.5.3",
+    "slowapi>=0.1.9",
+    "stripe>=12.4.0",
+    "torch~=2.7.1",
+    "transformers>=4.20.0",
+    "uvicorn>=0.35.0",
+]

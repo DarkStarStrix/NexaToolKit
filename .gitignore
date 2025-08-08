@@ -1,0 +1,30 @@
+# Compiled binaries
+nexa-toolkit
+*.exe
+
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+
+# Data files
+*.pt
+*.pth
+*.safetensors
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# JetBrains IDE specific files
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Miscellaneous
+Ascii.mjs # No longer used

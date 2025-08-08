@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexa ToolKit - Scale Your MLOps</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #121212; color: #e0e0e0; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 4rem 2rem; background-color: #1a1a1a; border-bottom: 1px solid #333; }
+        header h1 { font-size: 3rem; margin: 0 0 1rem 0; color: #4a90e2; }
+        header p { font-size: 1.25rem; color: #a0a0a0; }
+        .pricing-header { text-align: center; padding: 3rem 1rem; }
+        .pricing-header h2 { color: #fff; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .tier { background-color: #1e1e1e; border: 1px solid #333; border-radius: 0.5rem; padding: 2rem; text-align: center; display: flex; flex-direction: column; }
+        .tier h3 { font-size: 1.5rem; color: #4a90e2; margin-top: 0; }
+        .tier .price { font-size: 2.5rem; font-weight: bold; color: #fff; margin: 0.5rem 0; }
+        .tier .period { color: #a0a0a0; font-size: 1rem; }
+        .tier ul { list-style: none; padding: 0; margin: 1.5rem 0; text-align: left; flex-grow: 1; }
+        .tier li { margin-bottom: 0.75rem; }
+        .tier li::before { content: '✓'; color: #28a745; margin-right: 0.5rem; }
+        .tier li.disabled::before { content: '✗'; color: #6c757d; }
+        .btn { display: block; width: 100%; padding: 1rem; background-color: #0056b3; color: #fff; text-decoration: none; border-radius: 0.25rem; font-weight: bold; transition: background-color 0.2s; margin-top: auto; box-sizing: border-box; }
+        .btn:hover { background-color: #004494; }
+        .btn-secondary { background-color: #6c757d; }
+        .btn-secondary:hover { background-color: #5a6268; }
+        footer { text-align: center; padding: 2rem; margin-top: 2rem; color: #6c757d; }
+
+        @media (min-width: 992px) {
+            .pricing-grid {
+                flex-direction: row;
+                align-items: stretch;
+            }
+            .tier {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Stop rewriting the same quantization script every week.</h1>
+        <p>Nexa Toolkit gives you fast, dev-friendly model ops — from quantization to pruning — in one slick CLI.</p>
+    </header>
+
+    <div class="container">
+        <div class="pricing-header">
+            <h2>Simple, Transparent Pricing</h2>
+            <p>Choose the plan that's right for you. Used by ML devs building LLMs, fine-tunes, and inference stacks.</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="tier">
+                <h3>Starter</h3>
+                <p class="price">$10<span class="period">/one-time</span></p>
+                <ul>
+                    <li>Analyze Models</li>
+                    <li>Convert Formats</li>
+                    <li>Standard Quantization</li>
+                    <li class="disabled">Advanced Pruning</li>
+                    <li class="disabled">Model Merging</li>
+                    <li class="disabled">Evaluation Suite</li>
+                </ul>
+                <a href="YOUR_STRIPE_STARTER_LINK" class="btn">Get Started</a>
+            </div>
+
+            <div class="tier">
+                <h3>Pro</h3>
+                <p class="price">$15<span class="period">/month</span></p>
+                <ul>
+                    <li>All Starter Features</li>
+                    <li>Advanced Pruning</li>
+                    <li>Model Merging</li>
+                    <li>Benchmarking</li>
+                    <li>Evaluation Suite</li>
+                    <li>Access to Beta Tools</li>
+                </ul>
+                <a href="YOUR_STRIPE_PRO_LINK" class="btn">Go Pro</a>
+            </div>
+
+            <div class="tier">
+                <h3>Lifetime</h3>
+                <p class="price">$59<span class="period">/one-time</span></p>
+                <ul>
+                    <li>All Pro Features, Forever</li>
+                    <li>Lifetime License & Updates</li>
+                    <li>Early Supporter Badge</li>
+                    <li>**Launch Deal: Limited to 50 users**</li>
+                </ul>
+                <a href="YOUR_STRIPE_LIFETIME_LINK" class="btn">Buy Once</a>
+            </div>
+
+            <div class="tier">
+                <h3>Custom</h3>
+                <p class="price">Let's Talk</p>
+                <ul>
+                    <li>For Organizations & Teams</li>
+                    <li>Self-Hosted Docker Deployment</li>
+                    <li>License Management</li>
+                    <li>Custom Integrations & Support</li>
+                </ul>
+                <a href="mailto:sales@example.com" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nexa ToolKit. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

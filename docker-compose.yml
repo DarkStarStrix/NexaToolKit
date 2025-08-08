@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - .:/app
+      - ./db:/app/db
+    expose:
+      - "8000"
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+    restart: unless-stopped
