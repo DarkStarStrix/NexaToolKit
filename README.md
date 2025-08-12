@@ -2,7 +2,7 @@
 
 **Nexa ToolKit** is a high-performance, cross-platform command-line tool designed to simplify common machine learning model operations. Featuring a beautiful terminal user interface (TUI) and a powerful backend, it makes complex tasks like quantization, pruning, and format conversion accessible to everyone.
 
-![TUI Screenshot](https://your-image-host.com/nexa-tui.png) <!-- It's recommended to add a screenshot of the TUI -->
+[![Watch the video](https://github.com/DarkStarStrix/NexaToolKit/blob/master/Screenshot%202025-08-12%20164253.png)](https://github.com/DarkStarStrix/NexaToolKit/blob/master/NexaToolKit%20Service%20-%20Made%20with%20Clipchamp.mp4)
 
 ## Why Nexa ToolKit?
 
